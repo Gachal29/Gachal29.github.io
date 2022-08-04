@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.m-auto {
+    margin: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+.info-compornent-th {
+    @apply p-1 pr-5 text-left;
+}
+
+.info-compornent-tr-border {
+    @apply m-4 border-solid border-t-0 border-r-0 border-l-0 border-2 border-indigo-200;
+}
+
+.menu-line {
+    @apply pl-2 border-solid border-t-0 border-b-0 border-r-0 border-l-4 border-2 border-indigo-900;
+}
